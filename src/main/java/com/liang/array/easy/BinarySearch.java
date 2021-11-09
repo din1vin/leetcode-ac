@@ -1,4 +1,4 @@
-package com.liang.easy.array;
+package com.liang.array.easy;
 
 /**
  * * 二分查找(704)
@@ -22,6 +22,7 @@ package com.liang.easy.array;
  * <p>
  * 你可以假设 nums 中的所有元素是不重复的。 n 将在 [1, 10000]之间。 nums 的每个元素都将在 [-9999, 9999]之间
  */
+@SuppressWarnings("unused")
 public class BinarySearch {
     public int search(int[] nums, int target) {
         int l = 0, r = nums.length - 1;

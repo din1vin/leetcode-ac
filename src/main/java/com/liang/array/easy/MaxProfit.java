@@ -1,9 +1,11 @@
-package com.liang.easy.array;
+package com.liang.array.easy;
 
 import java.util.Deque;
 import java.util.LinkedList;
 
 /**
+ * 121. 买卖股票的最佳时机
+ * <p>
  * 给定一个数组 prices ，它的第i 个元素prices[i] 表示一支给定股票第 i 天的价格。
  * <p>
  * 你只能选择 某一天 买入这只股票，并选择在 未来的某一个不同的日子 卖出该股票。设计一个算法来计算你所能获取的最大利润。
@@ -29,14 +31,15 @@ import java.util.LinkedList;
  * <p>
  * 解释：在这种情况下, 没有交易完成, 所以最大利润为 0。
  */
+@SuppressWarnings("unused")
 public class MaxProfit {
-    public void maxProfit(int[] prices) {
-        Deque<Integer> deque = new LinkedList<Integer>();
-        for (int price : prices) {
-            if (deque.isEmpty()) {
-                deque.offer(price);
-            }
-
+    public int maxProfit(int[] prices) {
+        if (prices.length <= 1) return 0;
+        int min = prices[0], max = 0;
+        for (int i = 1; i < prices.length; i++) {
+            max = Math.max(max, prices[i] - min);
+            min = Math.min(min, prices[i]);
         }
+        return max;
     }
 }

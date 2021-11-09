@@ -1,4 +1,4 @@
-package com.liang.easy.array;
+package com.liang.array.easy;
 
 /**
  * 给定一个整数数组 nums，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
@@ -41,6 +41,7 @@ package com.liang.easy.array;
  * 1 <= nums.length <= 105
  * -104 <= nums[i] <= 104
  */
+@SuppressWarnings("unused")
 public class MaxSubArray {
     public int maxSubArray(int[] nums) {
         int res = nums[0];
