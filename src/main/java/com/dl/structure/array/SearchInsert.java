@@ -1,4 +1,4 @@
-package com.liang.array.easy;
+package com.dl.structure.array;
 
 /**
  * 35. 搜索插入位置

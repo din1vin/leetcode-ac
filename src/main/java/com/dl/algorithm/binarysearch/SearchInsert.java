@@ -1,4 +1,4 @@
-package com.liang.binary;
+package com.dl.algorithm.binarysearch;
 
 /**
  * 35. 搜索插入位置

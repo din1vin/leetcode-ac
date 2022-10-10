@@ -1,4 +1,4 @@
-package com.liang.binary;
+package com.dl.algorithm.binarysearch;
 
 /**
  * 704. 二分查找

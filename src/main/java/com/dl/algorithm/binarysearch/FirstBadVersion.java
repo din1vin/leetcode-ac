@@ -1,4 +1,4 @@
-package com.liang.binary;
+package com.dl.algorithm.binarysearch;
 
 /**
  * 278. 第一个错误的版本

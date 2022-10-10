@@ -1,7 +1,4 @@
-package com.liang.array.easy;
-
-import java.util.Deque;
-import java.util.LinkedList;
+package com.dl.structure.array;
 
 /**
  * 121. 买卖股票的最佳时机

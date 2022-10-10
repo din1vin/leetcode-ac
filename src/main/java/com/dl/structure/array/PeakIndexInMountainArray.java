@@ -1,4 +1,4 @@
-package com.liang.array.easy;
+package com.dl.structure.array;
 
 /**
  * 852. 山脉数组的峰顶索引

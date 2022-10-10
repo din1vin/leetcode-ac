@@ -1,4 +1,4 @@
-package com.liang.array.easy;
+package com.dl.structure.array;
 
 /**
  * 27.移除元素

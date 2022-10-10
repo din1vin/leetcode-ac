@@ -1,4 +1,4 @@
-package com.liang.array.medium;
+package com.dl.structure.array;
 
 /**
  * 1027. 最长等差数列
