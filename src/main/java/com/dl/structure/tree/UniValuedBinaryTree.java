@@ -1,15 +1,15 @@
 package com.dl.structure.tree;
 
 
-import com.dl.tags.Recursion;
-import com.dl.tags.Tree;
+import com.dl.tags.M_Recursion;
+import com.dl.tags.T_Tree;
 
 /**
  * 单值二叉树
  * @see <a href="https://leetcode.cn/problems/univalued-binary-tree/">LeetCode</a>
  */
-@Tree
-@Recursion
+@T_Tree
+@M_Recursion
 public class UniValuedBinaryTree {
     public boolean isUniValTree(TreeNode root) {
         int val  = root.val;
