@@ -1,4 +1,4 @@
-package com.liang.array.medium;
+package com.lang.array.medium;
 
 import java.util.TreeMap;
 
