@@ -1,9 +1,6 @@
 package com.dl.structure.str;
 
 import com.dl.tags.Number;
-
-import java.util.Arrays;
-
 /**
  * @author WuJi
  **/
@@ -12,7 +9,7 @@ public class GetLucky {
     public int getLucky(String s, int k) {
         StringBuilder sb = new StringBuilder();
         for (char c : s.toCharArray()) {
-            sb.append(String.valueOf(c - 'a' + 1));
+            sb.append(c - 'a' + 1);
         }
         String ints = sb.toString();
         for (int i = 0; i < k; i++) {
